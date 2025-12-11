@@ -1,0 +1,17 @@
+{
+    "name": "derywat/php-events",
+    "description": "PHP library for sending and receiving events.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "derywat\\events\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michal Rychlewski"
+        }
+    ],
+    "require": {}
+}
