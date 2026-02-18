@@ -22,4 +22,8 @@ trait EventsProducerTrait {
 		}
 	}
 
+	protected function getRegisteredEventReceivers(){
+		return $this->eventsReceivers;
+	}
+
 }
